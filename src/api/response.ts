@@ -5,5 +5,6 @@ const Axios= axios.create({
     headers: {
         "Content-Type": "application/x-www-form-urlencoded;charset=utf-8"
     },
+    timeout: 10000,
 });
 export default Axios
