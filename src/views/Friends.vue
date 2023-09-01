@@ -2,10 +2,13 @@
   <div class="Friends">
     <h1>Friends</h1>
     <div v-for=" item in arr" :key="item">{{ item }}</div>
+
+
+    
   </div>
 </template>
   
-  <script lang="ts">
+<script lang="ts">
 import { Options, Vue } from "vue-class-component";
 import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
 @Options({
